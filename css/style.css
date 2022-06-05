@@ -31,35 +31,42 @@
 
 #b1 {
 	text-align: center;
-	padding: 6px 8px 6px 8px !important;
+	padding: 2px 4px 2px 4px !important;
 	color: #ffffff;
 }
 #b2 {
 	text-align: center;
-	padding: 6px 0px 6px 0px !important;
+	padding: 2px 3px 2px 3px !important;
 	margin: 0px 0px 0px 0px !important;
 	color: #ffffff;
 }
+.btn-secondary {
+	padding: 2px 3px 2px 3px !important;
+	margin: 0px 0px 0px 0px !important;
+}
 #b3 {
 	text-align: center;
-	padding: 6px 8px 6px 8px !important;
+	padding: 2px 4px 2px 4px !important;
 	color: #ffffff;
 }
 #i1 {
 	padding: 0px 0px 0px 0px !important;
-	margin: 0px 2px 0px 0px !important;
+	margin: 0px 1px 0px 0px !important;
+	font-size: 0.9rem;
 }
 #i2 {
 	padding: 0px 0px 0px 0px !important;
 	margin: 0px 3px 0px 0px !important;
+	font-size: 0.9rem;
 }
 #i3 {
 	padding: 0px 0px 0px 0px !important;
 	margin: 0px 3px 0px 0px !important;
+	font-size: 0.9rem;
 }
 #ovrd {
-	padding: 10px 137px 10px 137px !important;
-	margin: 20px 0px 10px 0px !important;
+	padding: 5px 118px 3px 118px !important;
+	margin: 20px 0px 4px 0px !important;
 }
 
 #otovrd {
