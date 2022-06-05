@@ -1,7 +1,8 @@
 body {
 	background: url("https://i.imgur.com/tDRlxVI.jpg");
 	font-family: Roboto, sans-serif;
-	font-size: 1.1rem
+	font-size: 1.1rem;
+	background-color: #16052d;
 }
 
 section {
