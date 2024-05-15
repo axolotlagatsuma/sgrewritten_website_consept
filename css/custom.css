@@ -25,6 +25,15 @@ button {
     transition: .3s ease-in-out !important;
 }
 
+.hide {
+    display: none;
+  }
+
+.asterix:hover + .hide {
+    display: block;
+    color: #c43c6b;
+}
+
 .atlas-cta:hover {
     text-decoration: none;
     transform: translateY(-5px);
