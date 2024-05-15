@@ -55,11 +55,11 @@ button {
 
 .cta-blue {
     background: #192440;
-    color: #ffffff8a;
+    color: #ffffffff;
 }
 
 .cta-blue:hover {
-    color: #ffffff8a;
+    color: #ffffffff;
     background: #121a2e;
 }
 
@@ -113,26 +113,6 @@ button {
 
 #price-table ul li {
     padding: 5px 0;
-}
-
-/********** contact **********/
-#contact {
-    background-size: cover;
-}
-
-#contact ul li {
-    padding: 3px 0;
-}
-
-#contact form {
-    color: #c43c6b;
-}
-
-#contact form input,
-#contact form textarea {
-    background: transparent;
-    border: 1px solid #c43c6b;
-    color: #ffffff8a;
 }
 
 /********** copyright **********/
