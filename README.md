@@ -1,2 +1,2 @@
-# stargate-rewritten.github.io
-The stargate-rewritten project's current website.
+# Stargate Rewritten Website Consept
+Website consept for Minecraft plugin "Stargate" by axolotlagatsuma

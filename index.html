@@ -1,72 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
-<!---
-	A TEMPORARY landing page for the SG-R project.
-	Thrown together in <10 mins via the Gramateria framework
-	-->
-
+<html lang="zh-TW">
 <head>
-    <meta name="title" content="The Stargate-Rewritten Project">
-    <meta name="description" content="The original — and still the best — MineCraft transportation system. A survival-friendly plugin for the Bukkit, Sponge, and PMMP ecosystems.">
-    <meta name="keywords" content="Bukkit, Spigot, PaperSpigot, Paper Plugin, Spigot Plugin, Bukkit Plugin, CraftBukkit Plugin, Drakia, Dinnerbone, thedgtl, Stargate, Stargate Revived, Stargate Reloaded, Stargate Remake, Stargate Reremake, LCLO Stargate">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
-    <meta name="revisit-after" content="1 days">
-    <meta name="author" content="The Stargate-Rewritten Team">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sgrewritten.org">
-    <meta property="og:title" content="Stargate-Rewritten">
-    <meta property="og:description" content="The original — and still the best — MineCraft transportation system. A survival-friendly plugin for the Bukkit, Sponge, and PMMP ecosystems.">
-    <meta property="og:image" content="https://i.imgur.com/6BMpZKc.png">
-    <meta name="theme-color" content="#9484ff">
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>The Stargate Rewritten Project</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta name="title" content="The Stargate Rewritten Project">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/font-awesome-line-awesome/css/all.min.css" />
-    <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta name="description" content="The original, and still the best, Minecraft transportation solution!">
+    <link rel="icon" href="img/logo.png" sizes="32x32" type="image/png">
+    <!-- custom.css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
 </head>
 
 <body>
-    <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
-        <h2 class="hero-title display-2 text-uppercase mt-5">
-            <span draggable="true" data-highlightable="1" id="i1ycn">Stargate </span>rewritten
-        </h2>
-        <p class="hero-subtitle display-6">The original — and still the best — transportation solution!</p>
-        <div id="icbq6">A MineCraft plugin for the Bukkit, Sponge, and PMMP ecosystems.<br/></div>
-        <div class="hero-buttons">
-            <a href="https://sgrewritten.org/download"><button class="btn btn-primary me-2" id="ovrd">
-					<span class="fas me-2 fa-download"></span>Downloads
-				</button></a>
+    <!-- banner -->
+    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/bg.jpg);">
+        <div class="container text-center text-md-left">
+            <header>
+                <div class="row justify-content-between">
+                    <div class="col-2">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="col-6 align-self-center text-right">
+                        <a href="https://github.com/stargate-rewritten/Stargate-Bukkit/wiki" class="text-white lead">Docs</a>
+                    </div>
+                </div>
+            </header>
+            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
+                Stargate<br>
+                Rewritten
+            </h1>
+            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
+                The original, and still the best, Minecraft transportation solution!
+                <br> Highly immersive, robustly capable, deeply configurable, and easily expandable!
+            </p>
+            <a href="https://hangar.papermc.io/Stargate/Stargate" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Download</a>
         </div>
-        <div class="hero-buttons">
-            <a href="https://sgrewritten.org/wiki"><button class="btn btn-outline-secondary" id="b1">
-					<span class="fas me-2 fa-book" id="i1"></span>Documentation
-				</button></a>
-            <a href="https://sgrewritten.org/discord"><button class="btn btn-secondary" id="b2">
-					<span class="fas me-2 fa-comments" id="i2"></span>Support
-				</button></a>
-            <a href="https://sgrewritten.org/bukkitsource"><button class="btn btn-outline-secondary" id="b3">
-					<span class="fas me-2 fa-code" id="i3"></span>Source Code
-				</button></a>
+    </div>
+    <!-- three-blcok -->
+    <div class="container my-5 py-2">
+        <h2 class="text-center font-weight-bold my-5">
+            A Minecraft plugin for the Bukkit, Sponge, and PMMP ecosystems.</h2>
+        <div class="row">
+            <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img style="width: 120px; height: 120px;" src="img/velocity.png" alt="Velocity" class="mx-auto">
+                <h4>Cross-server</h4>
+                <p>Works with Velocity, Bungee-cord or Waterfall networks.</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img style="width: 120px; height: 120px;" src="img/settings.svg" alt="Settings" class="mx-auto">
+                <h4>Highly customisable</h4>
+                <p>With a comprehensive and intuitive config, highly granular permissions, and multi-language support!</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img style="width: 120px; height: 120px;" src="img/gamepad.svg" alt="Gamepad" class="mx-auto">
+                <h4>Immersive</h4>
+                <p>Stargate's interface is integrated within gameplay; players can create, use, and destroy portals without any commands!</p>
+            </div>
         </div>
-        <div class="hero-image p-4 shadow-sm rounded" id="otovrd"><img src="https://i.imgur.com/6BMpZKc.png" alt="Gramateria" id="iw1wr" /></div>
-    </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js"></script>
-    <script src="js/global.js"></script>
-    <script src="js/script.js"></script>
-</body>
+    </div>
+    <!-- feature (skew background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-first">
+        <div class="container my-5">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6">
+                    <h2 class="font-weight-bold">User-Oriented</h2>
+                    <p class="my-4">&nbsp;&nbsp;All of StarGate's features are designed to allow for non-admin users <br> 
+                        to create and manage their own portal networks in a balanced and <br> risk free manner.</p>
+                    <a href="https://github.com/stargate-rewritten/Stargate-Bukkit/wiki/Creating-Portals" class="btn my-4 font-weight-bold atlas-cta cta-green">Enter Portal</a>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
+                   <!-- <img src="img/feature-1.png" alt="Take a look inside" class="mx-auto d-block"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature (green background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+        <div class="container">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
+                    <h2 class="font-weight-bold">Expandable</h2>
+                    <p class="my-4">&nbsp;&nbsp;The StarGate community has developed an ecosystem of add-ons,<br> collectively add integration and design-philosophy expansions to the plugin.
+                    </p>
+                    <a href="https://github.com/stargate-rewritten/Stargate-Bukkit/wiki/Addons" class="btn my-4 font-weight-bold atlas-cta cta-green">See addons</a>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center flex-md-first">
+                    <!-- <img src="img/feature-2.png" alt="Safe and reliable" class="mx-auto d-block"> -->
+                </div>
+            </div>
+        </div>
+    </div>
 
-<footer>
-    <div style="background-color: rgb(0,0,0, 0.7); padding: 10px 0px 0px 0px !important; bottom: -10px; position: fixed; text-align: center; width:100%;"><span style="color:LightGray;"><b>Temporary website; replacement coming soon!</b></span><br><small><i><p style="color:LightGray;">Background image provided by <a style="color:LightGray;" href="https://unsplash.com/@josiahgascho">Josiah Gascho</a> via <a style="color:LightGray;" href="https://unsplash.com/photos/YnICeUmhzCA">Unsplash</a></p></i></small></div>
-</footer>
+    <!-- price table -->
+    <div class="container my-5 py-2" id="price-table">
+        <h2 class="text-center font-weight-bold d-block mb-3">Contribute to the project!</h2>
+        <div class="row justify-content-center">
+            <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
+                <h4 class="my-4">Translators</h4>
+                <!-- <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">0</span> / MO.</p>
+                <ul class="list-unstyled">
+                    <li>Up to 5 Documents</li>
+                    <li>Up to 3 Reviews</li>
+                    <li>5 team Members</li>
+                    <li>Limited Support</li>
+                </ul> -->
+                <a href="https://crowdin.com/project/stargate-bukkit" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Translate</a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5 rounded">
+                <h4 class="my-4">Documenters</h4>
+                <!-- <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">0</span> / MO.</p>
+                <ul class="list-unstyled">
+                    <li>Up to 15 Documents</li>
+                    <li>Up to 10 Reviews</li>
+                    <li>25 team Members</li>
+                    <li>Limited Support</li>
+                </ul> -->
+                <a href="https://discord.gg/mpACH98Fcd" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Join our Discord</a>
+            </div>
+            <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
+                <h4 class="my-4">Developers</h4>
+                <!-- <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">0</span> / MO.</p>
+                <ul class="list-unstyled">
+                    <li>Unlimited Documents</li>
+                    <li>Unlimited Reviews</li>
+                    <li>Unlimited Members</li>
+                    <li>Unlimited Support</li>
+                </ul> -->
+                <a href="https://discord.gg/mpACH98Fcd" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Join our Discord</a>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
+                <h4 class="my-4">Sponsors</h4>
+               <!-- <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">0</span> / MO.</p>
+                <ul class="list-unstyled">
+                    <li>Up to 5 Documents</li>
+                    <li>Up to 3 Reviews</li>
+                    <li>5 team Members</li>
+                    <li>Limited Support</li>
+                </ul> -->
+                <a href="https://github.com/sponsors/stargate-rewritten" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Sponsor</a>
+            </div>
+            <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
+                <h4 class="my-4">Alpha Testers</h4>
+                <!-- <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">0</span> / MO.</p>
+                <ul class="list-unstyled">
+                    <li>Up to 15 Documents</li>
+                    <li>Up to 10 Reviews</li>
+                    <li>25 team Members</li>
+                    <li>Limited Support</li>
+                </ul> -->
+                <a href="https://discord.gg/mpACH98Fcd" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Join our Discord</a>
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="jumbotron jumbotron-fluid" id="contact" style="background-image: url(img/bg.jpg);">
+        <div class="container my-5">
+            <div class="row justify-content-between">
+                <div class="col-md-6 text-white">
+                    <h2 class="font-weight-bold">Contact Us</h2>
+                    <p class="my-4">
+                        "Stop saying stuff that I never said." <br>          
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Sun Tzu, The Art of War
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>Email : contact@sgrewritten.org</li>
+                        <li>Address : Earth, Solar System, The Milky Way</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Name</label>
+                                <input type="name" class="form-control" id="name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="Email">Your Email</label>
+                                <input type="email" class="form-control" id="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-green my-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- copyright -->
+    <div class="jumbotron jumbotron-fluid" id="copyright">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
+                    Copyright © Sike, it's not copyrighted. :D <br> Made by <a href="https://github.com/axolotlagatsuma">axolotlagatsuma</a> with love.
+                </div>
+                <div class="col-md-6 align-self-center text-center text-md-right my-2" id="social-media">
+                    <a href="https://github.com/stargate-rewritten" class="d-inline-block text-center ml-2">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- AOS -->
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+      });
+    </script>
+</body>
 
 </html>
